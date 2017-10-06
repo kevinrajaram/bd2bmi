@@ -8,7 +8,7 @@ h5,
 h6 {
   color: inherit;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: .45em;
   margin-top: 0;
 }
@@ -56,6 +56,10 @@ a,
 ins,
 u {
   text-decoration-skip: ink edges;
+}
+
+a{
+  text-decoration: underline;
 }
 
 abbr[title] {

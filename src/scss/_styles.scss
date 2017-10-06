@@ -214,6 +214,52 @@ nav{
 
 .facultyTabs{
     margin: 30px 0;
+
+    .ui-tabs-nav{
+        margin-bottom: 25px;
+    }
+    .ui-tabs-active a{
+        border-bottom-color: $primary-color;
+        color: $primary-color;
+        font-weight: bold;
+    }
+    .ui-tabs-anchor{
+        float: none!important;
+        font-size: 20px;
+    }
+    .ui-tabs-panel{
+        padding: 1em 0!important;
+    }
+}
+
+.faculty{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid $primary-color;
+    padding: 18px;
+    margin: 0 0 35px;
+
+    .faculty-head{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .faculty-img{
+            flex: 1;
+        }
+        .faculty-title{
+            flex: 3;
+
+            h6{color: $primary-color;}
+        }
+    }
+    .faculty-desc{
+        .show_hide{
+            font-weight: bold;
+        }
+        .bio{margin-top: 20px;}
+    }
 }
 
 

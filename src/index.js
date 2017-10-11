@@ -12,7 +12,7 @@ function showHide() {
   var $showhide = $('.show_hide'), $bio = $('.bio');
   $bio.hide();
   $showhide.click(function(e) {
-      $(this).text(($(this).text() === 'Read less...' ? 'Read more...' : 'Read less...')).next('.bio').slideToggle(300);
+      $(this).text(($(this).text() === 'Read less' ? 'Read more...' : 'Read less')).next('.bio').slideToggle(300);
       e.preventDefault();
   });
 }

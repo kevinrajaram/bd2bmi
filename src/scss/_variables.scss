@@ -1,10 +1,10 @@
 // Core variables
 // Colors
 // Core colors
-$primary-color: #6BAF91 !default;
+$primary-color: #5FC3AA !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
-$secondary-color: #EB5045 !default;
+$secondary-color: #F15738 !default;
 $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
@@ -32,7 +32,7 @@ $error-color: #e85600 !default;
 // Other colors
 $code-color: #e06870 !default;
 $highlight-color: #ffe9b3 !default;
-$body-bg: $bg-color-light !default;
+$body-bg: #fbfbfb !default;
 $body-font-color: lighten($dark-color, 5%) !default;
 
 $ctBlue: #47ACC9;

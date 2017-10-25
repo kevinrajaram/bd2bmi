@@ -8,8 +8,8 @@ $secondary-color: #F15738 !default;
 $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
-$link-color: $primary-color !default;
-$link-color-dark: darken($link-color, 5%) !default;
+$link-color: $secondary-color !default;
+$link-color-dark: darken($link-color, 15%) !default;
 
 // Gray colors
 $dark-color: #454d5d !default;

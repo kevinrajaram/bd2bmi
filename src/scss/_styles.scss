@@ -17,11 +17,11 @@
 }
 
 .site-footer{
-    background: $gray-color-light;
+    background: lighten($dark-color, 80%);
     margin-top: 50px;
 
     .columns{
-        padding: 40px;
+        padding: 40px 0;
         align-items: center;
     }
     
@@ -39,6 +39,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
+
+    img{
+        margin: 10px 15px;
+    }
 }
 
 .cornellRed{
@@ -226,13 +231,12 @@ nav{
             flex: 1;
 
             p{
-                font-size: 16px; 
                 font-weight: bold; 
-                line-height: 1.2; 
+                line-height: 1.4;
                 margin: 0;
-                color: darken($primary-color,15%);
+                color: $dark-color;
             }
-            span{font-size: 10px; font-weight: 100;}
+            span{font-size: 12px; font-weight: 100;}
         }
 
         .eventTitle{
@@ -274,7 +278,8 @@ nav{
     background: #ffffff;
     border: 1px solid $primary-color;
     padding: 18px;
-    margin: 0 0 35px;
+		margin: 0 0 35px;
+		min-height: 421px;
 
     .faculty-head{
         display: flex;

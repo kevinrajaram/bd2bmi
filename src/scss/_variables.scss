@@ -12,13 +12,13 @@ $link-color: $secondary-color !default;
 $link-color-dark: darken($link-color, 15%) !default;
 
 // Gray colors
-$dark-color: #454d5d !default;
+$dark-color: #1f1f1f !default;
 $light-color: #fff !default;
 $gray-color: lighten($dark-color, 40%) !default;
 $gray-color-dark: darken($gray-color, 20%) !default;
 $gray-color-light: lighten($gray-color, 25%) !default;
 
-$border-color: lighten($dark-color, 60%) !default;
+$border-color: lighten($dark-color, 80%) !default;
 $border-color-dark: darken($border-color, 10%) !default;
 $bg-color: lighten($dark-color, 66%) !default;
 $bg-color-dark: darken($bg-color, 3%) !default;
@@ -66,7 +66,7 @@ $unit-16: 3.2rem !default;
 // Font sizes
 $html-font-size: 20px !default;
 $html-line-height: 1.428571429 !default;
-$font-size: .7rem !default;
+$font-size: .8rem !default;
 $font-size-sm: .6rem !default;
 $font-size-lg: .8rem !default;
 $line-height: 1rem !default;

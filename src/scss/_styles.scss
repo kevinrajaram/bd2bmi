@@ -305,6 +305,10 @@ nav{
     }
 }
 
+.server{
+    float: right;
+}
+
 .apply{
     max-width: 350px;
     height: 100%;
@@ -349,6 +353,16 @@ nav{
         .intro-signup{
             transform: scale(0.9);
             text-align: center;
+        }
+    }
+    .upcomingEvents ul{    
+        li{
+            .date{
+                flex: 2;
+            }
+            .eventTitle{
+                flex: 7;
+            }
         }
     }
  }
@@ -424,7 +438,7 @@ nav{
             
     .nav-open{
         position: fixed;
-        right: 7px;
+        right: 20px;
         top: 75px;
         display: block;
         width: 50px;
@@ -513,5 +527,9 @@ nav{
         .expectations{
             margin-bottom: 50px;
         }
+    }
+
+    .server{
+        float: none;
     }
 }

@@ -2,12 +2,14 @@
 // Header
 #container{
     border-top: 10px solid $primary-color;
+    position: relative;
+    z-index: 1;
 }
 
 .patternBg{
     background: transparent url(../images/pattern.png);
     min-height: 800px;
-    clip-path: polygon(0 0,100% 0,100% 100%,0 80%);
+    // clip-path: polygon(0 0,100% 0,100% 100%,0 80%);
     overflow: auto;
 }
 
@@ -86,8 +88,8 @@ nav{
             padding: 0;
     
             li{
-                display: inline-block;
                 float: left;
+                display: inline-block;
                 margin: 15px;
     
                 a{
@@ -354,8 +356,11 @@ nav{
 @media screen and (max-width: 600px){ 
 
     .site-header .columns{
-        height: 200px;
         align-items: center;
+        padding: 40px 0;
+    }
+    .patternBg{
+        min-height: 900px;
     }
     
     .site-footer{
@@ -384,7 +389,7 @@ nav{
         left: 0;
         height: 100%;
         width: 100%;
-        z-index: 1;
+        z-index: 1000;
         background: rgba(0, 0, 0, 1);
         transform: translateX(100%);
         opacity: 0;
@@ -403,8 +408,7 @@ nav{
                 float: none;
                 width: 100%;
                 text-align: center;
-                margin: 0;
-                margin-bottom: 10px;
+                margin: 15px 0;
 
                 a{
                     padding: 10px 20px;
@@ -421,23 +425,25 @@ nav{
     .nav-open{
         position: fixed;
         right: 7px;
-        top: 25px;
+        top: 75px;
         display: block;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
         z-index: 9999;
+        border-radius: 50%;
+        background: $primary-color;
 
         i{
             display: block;
             width: 20px;
             height: 2px;
-            background: #000000;
+            background: #ffffff;
             border-radius: 2px;
-            margin-left: 20px;
+            margin-left: 15px;
         }
         i:nth-child(1){
-            margin-top: 20px;
+            margin-top: 18px;
             transition: transform .3s ease;
         }
         i:nth-child(2){
@@ -470,7 +476,7 @@ nav{
         transform: translateX(0);
         
         ul li{
-            margin-bottom: 20px;
+            margin: 15px 0;
             
             a{
                 opacity: 1;

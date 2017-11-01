@@ -335,6 +335,15 @@ nav{
 	height: 100%;
 }
 
+blockquote{
+    padding: 1rem;
+    background: #5FC3AA;
+    color: #ffffff;
+    box-shadow: 10px 10px 0 0 darken($primary-color, 20%);
+    font-size: 20px;
+    border-left: none;
+}
+
 @media screen and (max-width: 840px){
     .intro{
         .intro-text{

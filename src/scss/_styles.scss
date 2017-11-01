@@ -193,6 +193,11 @@ nav{
 .slider{
     width: 100%;
     max-height: 400px;
+    background: $primary-color;
+
+    img{
+        margin: 0 auto;
+    }
 }
 
 .description{

@@ -56,7 +56,6 @@
 }
 
 .ul-styled{
-    font-size: 18px;
 
     li{
         position: relative;
@@ -342,6 +341,17 @@ blockquote{
     box-shadow: 10px 10px 0 0 darken($primary-color, 20%);
     font-size: 20px;
     border-left: none;
+}
+
+.accordion {
+		.accordion-header{
+			font-size: 20px;
+			font-weight: 500;
+			margin-top: 15px;
+		}
+		.accordion-body{
+			padding: 15px 35px;
+		}
 }
 
 @media screen and (max-width: 840px){
